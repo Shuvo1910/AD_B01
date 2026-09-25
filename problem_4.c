@@ -1,8 +1,9 @@
 // Find out average of four numbers;
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
     int num1, num2, num3, num4;
     float average;
 
@@ -10,6 +11,8 @@ int main() {
     scanf("%d %d %d %d", &num1, &num2, &num3, &num4);
 
     average = (num1 + num2 + num3 + num4) / 4.0;
+
+    printf("The average of four number: %.2f", average);
 
     return 0;
 }
